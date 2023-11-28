@@ -30,6 +30,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
+
 }
 
 .rightNavDiv {
@@ -39,7 +40,7 @@
     margin-right: 10px;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
 
     text-align: center;
     color: black;
@@ -47,7 +48,7 @@
     color: white;
     background-color: black;
     transition: ease-in-out 0.5s;
-}
+} */
 
 
 .title {
