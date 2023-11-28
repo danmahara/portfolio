@@ -1,17 +1,15 @@
 /* Add this to your existing CSS file or create a new one */
-@media (max-width: 768px) {
 
-    /* Styles for screens smaller than 768px */
-    .heading h1 {
-        font-weight: 700;
-
-        font-size: 40px;
-        /* Adjust font size for smaller screens */
-    }
-}
 
 /* for index.html file  */
-
+#name{
+    font-weight: bolder;
+}
+#frontEnd {
+    color: rgb(32, 141, 168);
+    font-size: 40px;
+font-weight: 900;
+}
 
 * {
     margin: 0px;
@@ -54,6 +52,7 @@
 
 .title {
     font-size: 15px;
+    /* font-weight: bold; */
 }
 
 .title2 {
