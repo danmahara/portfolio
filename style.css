@@ -40,11 +40,10 @@
 }
 
 .nav-link:hover {
-    justify-content: center;
+
     text-align: center;
     color: black;
     border-radius: 10px;
-    font-weight: 300;
     color: white;
     background-color: black;
     transition: ease-in-out 0.5s;
@@ -131,6 +130,6 @@ body {
     border: solid red 2px;
     width: 500px;
     padding: 10px;
-    /* margin: 10px; */
+    margin: 10px;
 
 }
