@@ -1,16 +1,63 @@
-<include src="index.html"></include>
+<!DOCTYPE html>
+<html lang="en">
 
-<style>
-    .btn {
-        margin: 10px;
-    }
-</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dan Mahara</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
 
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-12 mx-auto mt-5">
-            <a href="resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid leftDiv">
+            <a class="navbar-brand" href="index.html"></a>
+            <!-- img-fluid for image responsive -->
+            <img class="myImage img-fluid" src="image/img.jpg" alt="my img">
+            <h3 id="name">DAN MAHARA</h3>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse navDiv" id="navbarNavAltMarkup">
+                <div class="navbar-nav toogledNavs">
+                    <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
+                    <a class="nav-link" href="resume.html">Resume</a>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <style>
+        .btn {
+            margin: 10px;
+        }
+    </style>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mx-auto mt-5">
+                <a href="resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+            </div>
         </div>
     </div>
-</div>
+
+
+</body>
+
+</html>

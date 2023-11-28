@@ -8,8 +8,7 @@
     }
 }
 
-
-/* for header.html file  */
+/* for index.html file  */
 
 
 * {
@@ -41,8 +40,6 @@
 
 
 
-/* for index.php file */
-
 body,
 html {
     height: 100vh;
@@ -68,31 +65,15 @@ html {
 }
 
 
-.centerBody {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 700px;
-    font-family: Nunito, sans-serif;
-}
-
-.button {
-    bottom: 0px;
-}
-
 
 /* for about.php file */
 
 .aboutPage {
     display: flex;
-    /* background-color: silver; */
+
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    /* margin: 0px; */
-    /* margin: 20px; */
-    /* height: 100vh; */
 
 }
 
@@ -100,7 +81,6 @@ html {
 /* for contact.php file */
 .contactBody {
     display: flex;
-    /* background-color: silver; */
     height: 655px;
     width: 100%;
     align-items: center;
