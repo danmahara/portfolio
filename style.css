@@ -128,7 +128,7 @@ body {
 }
 
 .firstDiv {
-    border: solid red 2px;
+    /* border: solid red 2px; */
     width: 500px;
     padding: 10px;
     margin: 10px;
