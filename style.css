@@ -18,27 +18,6 @@
 }
 
 
-/* style.css */
-
-.navbar-nav .nav-link.active {
-    color: red;
-    /* Set the text color to red */
-    /* background-color: transparent !important; */
-    /* Optional: Set the background color to transparent */
-    /* Add any other styles you want for the active tab */
-}
-
-/* Optional: Hover effect for the active tab */
-.navbar-nav .nav-link.active:hover {
-    color: darkred;
-    /* Set the hover text color to a darker shade of red */
-}
-
-a:hover {
-    color: red;
-}
-
-
 .myImage {
     height: 60px;
     width: 60px;

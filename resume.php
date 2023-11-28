@@ -1,6 +1,6 @@
 <?php
 
-require_once("header.html");
+include_once 'index.html';
 
 ?>
 <style>
