@@ -2,43 +2,7 @@
 require_once("header.html");
 
 ?>
-<style>
-    .contactBody {
-        display: flex;
-        background-color: silver;
-        height: 655px;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
 
-    }
-
-    .links {
-        font-size: 25px;
-        margin: 5px;
-        width: 20px;
-    }
-
-    .socialPanel {
-        display: flex;
-        position: absolute;
-        left: 0px;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 200px;
-        width: 4rem;
-        background-color: white;
-        text-align: center;
-
-    }
-
-    .firstDiv {
-        display: flex;
-        justify-content: center;
-        margin: 4.5em;
-    }
-</style>
 <div class="contactBody">
     <div class="firstDiv">
         <p>

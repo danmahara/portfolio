@@ -1,3 +1,14 @@
+/* Add this to your existing CSS file or create a new one */
+@media (max-width: 768px) {
+
+    /* Styles for screens smaller than 768px */
+    .heading h1 {
+        font-size: 24px;
+        /* Adjust font size for smaller screens */
+    }
+}
+
+
 /* for header.html file  */
 
 
@@ -6,8 +17,25 @@
     padding: 0px;
 }
 
-#name {
-    color: black;
+
+/* style.css */
+
+.navbar-nav .nav-link.active {
+    color: red;
+    /* Set the text color to red */
+    /* background-color: transparent !important; */
+    /* Optional: Set the background color to transparent */
+    /* Add any other styles you want for the active tab */
+}
+
+/* Optional: Hover effect for the active tab */
+.navbar-nav .nav-link.active:hover {
+    color: darkred;
+    /* Set the hover text color to a darker shade of red */
+}
+
+a:hover {
+    color: red;
 }
 
 
@@ -36,15 +64,30 @@
 
 /* for index.php file */
 
-.body {
-    display: flex;
+body,
+html {
+    height: 100vh;
+    margin: 0;
     background-color: silver;
-    height: 655px;
-    width: 100%;
-    align-items: center;
+}
+
+.indexBody {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.indexRow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
 }
+
 
 .centerBody {
     display: flex;
@@ -55,17 +98,59 @@
     font-family: Nunito, sans-serif;
 }
 
+.button {
+    bottom: 0px;
+}
+
 
 /* for about.php file */
 
 .aboutPage {
     display: flex;
-    background-color: silver;
+    /* background-color: silver; */
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 0px;
+    /* margin: 0px; */
     /* margin: 20px; */
-    height: 100vh;
+    /* height: 100vh; */
 
+}
+
+
+/* for contact.php file */
+.contactBody {
+    display: flex;
+    /* background-color: silver; */
+    height: 655px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.links {
+    font-size: 25px;
+    margin: 5px;
+    width: 20px;
+}
+
+.socialPanel {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 4rem;
+    background-color: white;
+    text-align: center;
+
+}
+
+.firstDiv {
+    display: flex;
+    justify-content: center;
+    margin: 4.5em;
 }

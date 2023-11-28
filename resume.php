@@ -9,6 +9,10 @@ require_once("header.html");
     }
 </style>
 
-<div class="mt-5">
-    <a href="resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 mx-auto mt-5">
+            <a href="resume.pdf" target="_blank" class="btn btn-primary">View Resume</a>
+        </div>
+    </div>
 </div>
