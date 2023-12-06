@@ -11,6 +11,25 @@
             return color;
         }
 
+
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            
+            do {
+                color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+            }
+        while(color==='#ffffff');
+            return color;
+        }
+        
+   
+        
+
+
         // Change text color on page load
         // document.addEventListener('DOMContentLoaded', function() {
         //     var element = document.getElementById('changeColor');
