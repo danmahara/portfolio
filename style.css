@@ -2,15 +2,7 @@
 
 
 /* for index.html file  */
-#name {
-    font-weight: bolder;
-}
 
-.frontEnd {
-    /* color: rgb(32, 141, 168); */
-    font-size: 30px;
-    font-weight: 700;
-}
 
 * {
     margin: 0px;
@@ -59,6 +51,60 @@
     height: 3rem;
 }
 
+
+.selected {
+    background-color: green;
+    color: white;
+}
+
+/* for animation  */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mainTitle,
+.title,
+.title2 {
+    animation: fadeIn 1s ease-out;
+}
+
+/* for navigation */
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.toogledNavs {
+    animation: slideInFromRight 1s cubic-bezier(0.075, 0.82, 1, 1.5);
+}
+
+/* for header name */
+#name {
+    font-weight: bolder;
+}
+
+.mainTitle {
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
 .title {
     font-size: 17px;
     font-weight: bold;
@@ -66,9 +112,13 @@
 }
 
 .title2 {
-    font-size: 23px;
+
+    font-size: 20px;
     text-align: center;
+
+
 }
+
 
 /* for shadow */
 .navbar.navbar-expand-lg {
@@ -84,12 +134,13 @@
 
 .nav-link {
 
-    /* background-color: red; */
     text-align: center;
     margin: 5px;
     box-shadow: 0px 0px 5px 1px rgba(16, 41, 131, 0.1);
     color: black;
     font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 body {
@@ -137,8 +188,9 @@ body {
     justify-content: center;
 
 }
-.contactNav{
-   font-family: 'Nunito',sans-serif;
+
+.contactNav {
+    font-family: 'Nunito', sans-serif;
 }
 
 .links {
