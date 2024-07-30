@@ -1,35 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500;800&display=swap');
 
+/* Global Styles */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
 
-/* -----------for experience section---------- */
+/* Container */
 .container {
     margin-top: 20px;
+    padding: 0 15px;
+}
+
+/* Experience Section */
+.experience-section {
+    margin-top: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #e9ecef;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .experience-section h2 {
+    text-align: center;
+    font-size: 36px;
     color: #007bff;
+    margin-bottom: 30px;
+    position: relative;
 }
 
-.experience-section {
-    margin-top: 40px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #e9ecef;
+.experience-section h2::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
+/* Experience Item */
 .experience-item {
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #ffffff;
     border: 2px solid #007bff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.experience-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .experience-item h3 {
     margin-bottom: 10px;
     font-size: 24px;
     color: #007bff;
+    position: relative;
+}
+
+.experience-item h3::after {
+    content: '';
+    width: 30px;
+    height: 3px;
+    background-color: #007bff;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
 }
 
 .experience-item p {
@@ -47,7 +115,16 @@
     font-weight: bold;
 }
 
+/* Responsive Styles */
 @media (max-width: 767px) {
+    .experience-section {
+        padding: 20px;
+    }
+
+    .experience-section h2 {
+        font-size: 28px;
+    }
+
     .experience-item h3 {
         font-size: 20px;
     }

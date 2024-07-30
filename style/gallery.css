@@ -1,0 +1,10 @@
+.carousel-inner img {
+    max-height: 500px; /* Adjust based on your preference */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
